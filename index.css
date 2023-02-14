@@ -1,0 +1,8 @@
+*{margin: 0;padding: 0;}
+.grid{
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+.grid >div{border: 1px solid tomato;
+  padding: 10px;
+}
